@@ -8,6 +8,9 @@
     "allowSyntheticDefaultImports": true,
     "target": "ES2023",
     "sourceMap": true,
+     "paths": {
+      "@prisma/client": ["./generated/prisma/client"]
+    },
     "outDir": "./dist",
     "baseUrl": "./",
     "incremental": true,
@@ -18,7 +21,4 @@
     "strictBindCallApply": false,
     "noFallthroughCasesInSwitch": false
   },
-  "paths": {
-  "@prisma/client": ["./generated/prisma/client"]
-}
 }
